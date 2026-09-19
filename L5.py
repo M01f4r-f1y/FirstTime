@@ -6,4 +6,11 @@ age_in_yers = age_in_month//12
 my_name = "Artem"
 My_age = "My name is {my_name}, I am {age_in_yers} years old."
 
+a = 1
+print (a == 1)
+print (a != 2)
+print(a > 3)
+print(a < 4)
+print(a <= 5)
+
 
