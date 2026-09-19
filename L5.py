@@ -1,4 +1,4 @@
-space = 0
+space = " "
 for _ in range(42):
 	print("I love python")
 
