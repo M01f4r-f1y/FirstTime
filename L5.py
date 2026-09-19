@@ -5,10 +5,10 @@ for _ in range(42):
 for _ in range(2):
 	print(space)
 
-age_in_month = (2026-2001)+9
+age_in_month = (2026-2001)*12+9
 age_in_yers = age_in_month//12
 my_name = "Artem"
-My_age = "My name is {my_name}, I am {age_in_yers} years old."
+My_age = f"My name is {my_name}, I am {age_in_yers} years old."
 print(My_age)
 
 for _ in range(2):
@@ -28,7 +28,7 @@ for _ in range(2):
 a = 2
 b = 5
 c = 6
-d = "{a}" + "{b}" + "{c}"
+d = f"{a}{b}{c}"
 print (d)
 
 
